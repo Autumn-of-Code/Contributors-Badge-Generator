@@ -22,16 +22,16 @@ export const generateMetadata = async ({ params }: TicketPageProps): Promise<Met
   const ticket = await getTicketData(params.slug)
 
   return {
-    title: `${ticket.name}'s Ticket | HackNITR 5.0`,
-    description: `Ticket for ${ticket.name} from ${ticket.teamName} for HackNITR 5.0`,
+    title: `${ticket.name}'s Ticket | Autumn of Code`,
+    description: `Ticket for ${ticket.name} from ${ticket.teamName} for Autumn of Code`,
     icons: {
       icon: '/favicon.ico'
     },
-    applicationName: 'HackNITR 5.0',
+    applicationName: 'Autumn of Code',
     openGraph: {
-      title: `${ticket.name}'s Ticket | HackNITR 5.0`,
-      description: `Ticket for ${ticket.name} from ${ticket.teamName} for HackNITR 5.0`,
-      siteName: 'Ticket | HackNITR 5.0',
+      title: `${ticket.name}'s Ticket | Autumn of Code`,
+      description: `Ticket for ${ticket.name} from ${ticket.teamName} for Autumn of Code`,
+      siteName: 'Ticket | Autumn of Code',
       type: 'website'
     }
   }

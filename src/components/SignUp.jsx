@@ -104,7 +104,7 @@ const SignUp = () => {
   return (
     <Hero>
       <HeadBox>
-        <Headings>HACKNITR 5.0</Headings>
+        <Headings>Autumn of Code</Headings>
         <SubHead>Presents</SubHead>
         <TitleCont>
           <Title>Tickets</Title>

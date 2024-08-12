@@ -7,10 +7,10 @@ export const Footer = () => {
       <FooterItems>Privacy & Cookies</FooterItems>
       <FooterItems>Terms and Conditions</FooterItems>
 
-      <FooterItems>Architected with ❤️ by HackNITR Team</FooterItems>
+      <FooterItems>Architected with ❤️ by Organisers</FooterItems>
 
       <FooterItems>
-        <HNlink href={'https://hacknitr.com/'}>HackNITR.com</HNlink>
+        <HNlink href={'https://Autumnofcode.com/'}>Autumnofcode.com</HNlink>
       </FooterItems>
     </FooterContainer>
   )

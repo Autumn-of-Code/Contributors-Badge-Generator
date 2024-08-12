@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import { AuthProvider } from '../context/AuthContext'
 
 export const metadata: Metadata = {
-  title: 'Ticket | HackNITR 5.0',
-  description: 'Ticket for HackNITR 5.0',
+  title: 'Ticket | Autumn of Code',
+  description: 'Ticket for Autumn of Code',
   icons: {
     icon: '/favicon.ico'
   }
